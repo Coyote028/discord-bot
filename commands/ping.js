@@ -1,7 +1,6 @@
 module.exports = {
-  name: 'ping',
-  description: 'Test Command.',
-  execute(message) {
-    message.channel.send('Pong.');
-  }
+  name: "ping",
+  async execute(message) {
+    message.channel.send("Pong.");
+  },
 };
